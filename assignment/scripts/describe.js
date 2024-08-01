@@ -27,9 +27,9 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // 
-// 
-// 
-//
+// The variable is named number which is assigned to #
+// The variable number will be added with a 1
+// if the number is greater or equal to 2 then it's true
 
 //CODE
 /*
@@ -46,8 +46,11 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // 
-// 
-// 
+// the variable is name, the value of that name is Dane.
+// if the name that is equal for the value and the type then Hi Mary! 
+// else, false: How do you do?
+//
+//
 //
 
 //CODE
@@ -70,7 +73,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
+// there are two variables, one is secret and the other is code. secret is  undefined while code is the value of 123
+// if code is equal for the same type and value 
+//
 // 
 // 
 //
@@ -92,6 +97,13 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
+//There are 3 variables: isStudent with the value of true, age with the value of 34 and zip for the value of 55407
+//if they're a isStudent and their zip is over 80k then the console will say "you're a studen on the West Coast!"
+// else if they're not a student or thier age is less than 30 then console will reply "what are your hobbies?"
+//else if isStudent equal to true, console reply is welcome to prime!
+// else if all are false, console reply is "How about the weather?"
+//
+//
 
 
 
@@ -122,12 +134,19 @@ if (number >= 2) {
 }
 
 */
+//
+//
 
 
 
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
+
+
+//FIX - let colorOne is currently "red" switch to "blue"
+//colorTwo -  visa versa from colorOne
+//If statement will be false if above corrections are not made. 
 
 /*
 let colorOne = 'red';
@@ -144,6 +163,8 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+//current temp is at 40 degrees and the time is = to 4. both statements are true. 
+//therefore the log will reply to throw away the food. 
 let temp = 40;
 const time = 4;
 
@@ -157,6 +178,9 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+
+// This block of code is stating that if you're at 21 or less, you do not have entry. 
+else you can enter. 
 let age = 21;
 const minAge = 21;
 
